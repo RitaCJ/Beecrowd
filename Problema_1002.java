@@ -1,4 +1,3 @@
-package Problemas_Resolvidos.Beecrowd;
 import java.util.Scanner;
 import java.lang.Math;
 
