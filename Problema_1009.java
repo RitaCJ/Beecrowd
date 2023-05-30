@@ -1,16 +1,17 @@
 import java.util.Scanner;
+
 public class Problema_1009 {
-    public static void main (String args[]){
+    public static void main(String args[]) {
 
         String seller_name;
         double salary, sold, total;
 
         Scanner input = new Scanner(System.in);
 
-        try{
+        try {
             seller_name = input.nextLine();
-            sold = input.nextDouble();
             salary = input.nextDouble();
+            sold = input.nextDouble();
 
             total = (salary + (sold * 0.15));
 
@@ -18,7 +19,7 @@ public class Problema_1009 {
 
             System.out.println("TOTAL = R$ " + salario);
 
-        }finally{
+        } finally {
             input.close();
         }
     }

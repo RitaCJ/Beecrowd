@@ -1,13 +1,14 @@
 import java.util.Scanner;
+
 public class Problema_1008 {
-    public static void main (String args[]){
+    public static void main(String args[]) {
 
         int E_number, W_hour;
         double amount;
 
         Scanner input = new Scanner(System.in);
 
-        try{
+        try {
 
             E_number = input.nextInt();
             W_hour = input.nextInt();
@@ -17,9 +18,9 @@ public class Problema_1008 {
 
             String salario = String.format("%.2f", salary);
 
-            System.out.print("NUMBER = " + E_number + "\nSALARY = U$ " + salario);
+            System.out.println("NUMBER = " + E_number + "\nSALARY = U$ " + salario);
 
-        }finally{
+        } finally {
             input.close();
         }
     }

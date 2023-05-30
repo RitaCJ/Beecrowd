@@ -1,24 +1,24 @@
 import java.util.Scanner;
+
 public class Problema_1007 {
-   public static void main (String args[])
-   {
-    int A, B, C, D, result;
-    
-    Scanner input = new Scanner(System.in);
+    public static void main(String args[]) {
+        int A, B, C, D, result;
 
-    try{
+        Scanner input = new Scanner(System.in);
 
-        A = input.nextInt();
-        B = input.nextInt();
-        C = input.nextInt();
-        D = input.nextInt();
+        try {
 
-        result = ((A*B) - (C*D));
+            A = input.nextInt();
+            B = input.nextInt();
+            C = input.nextInt();
+            D = input.nextInt();
 
-        System.out.printf("DIFERENCA = %d\n", result);
+            result = ((A * B) - (C * D));
 
-    }finally{
-        input.close();
+            System.out.printf("DIFERENCA = %d\n", result);
+
+        } finally {
+            input.close();
+        }
     }
-   } 
 }
