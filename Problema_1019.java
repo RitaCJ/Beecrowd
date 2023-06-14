@@ -17,7 +17,7 @@ public class Problema_1019 {
 
         second = duration_s;
 
-        System.out.printf("%d:%d:%d:\n", hour, minute, second);
+        System.out.printf("%d:%d:%d\n", hour, minute, second);
 
     }
 }
