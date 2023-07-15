@@ -4,12 +4,12 @@ public class Problema_1021 {
 
         int a = 0, b = 0, c = 0, d = 0, e = 0, f = 0, 
          h=0, i =0, j=0, k=0, l=0, m=0;
-         double N;
+         Double N;
 
         Scanner input = new Scanner(System.in);
         N = input.nextDouble();
 
-        while (N > 0) {
+        while (N != 0) {
             if (N >= 100) {
                 a = a + 1;
                 N = N - 100;
