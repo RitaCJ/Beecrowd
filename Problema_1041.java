@@ -21,6 +21,10 @@ public class Problema_1041 {
             System.out.println("Q3");
         } else if (x > 0 && y < 0) {
             System.out.println("Q4");
+        }else if(x !=0 && y == 0){
+             System.out.println("Eixo X");
+        }else if(x == 0 && y !=0){
+             System.out.println("Eixo Y");
         }
     }
 }
