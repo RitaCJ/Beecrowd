@@ -9,6 +9,8 @@ public class Problema_1021 {
         Scanner input = new Scanner(System.in);
         N = input.nextDouble();
 
+        N = (N * 100) + 0.5;
+
         while (N != 0) {
             if (N >= 100) {
                 a = a + 1;
